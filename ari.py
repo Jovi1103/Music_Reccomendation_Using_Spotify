@@ -8,7 +8,6 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
-# test
 
 
 def ari_to_features(ari):
