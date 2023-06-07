@@ -1,0 +1,12 @@
+- Basic idea
+Problem statement
+    - Create an nlp model that can take an input to create a playlist of a user's choice
+        eg: "Create a platlist for a candle light dinner"
+        eg2: "Create a playlist for a long car ride, have some sad songs, and some dance pop songs
+
+To create this, the s brief steps are as follows:
+
+    1) First create a reccomendation system based off of the One million data set given by spotify
+        - The dataset has 100 json files, each with 1000 songs as a part of the playlists, so we have a total 1,000,000 songs, there must be some repeats ofc,
+        - we use collaborative filtering and see our results, we can also try content based, and then a hybrid to see what works best.
+    2) After we do this, we create the nlp model to train from this system and then reccommend a playlist as asked by the user's input.
